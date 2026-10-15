@@ -4,46 +4,50 @@ Welcome to my GitHub portfolio!
 This repository is where I collect, document, and develop my IT projects as I continue learning and expanding my technical skills.
 My goal is to gain practical experience by building projects, experimenting with different technologies, solving technical problems, and documenting what I learn along the way.
 
-About Me
-I am an IT student interested in IT infrastructure, networking, system administration, and cybersecurity.
-I enjoy exploring how systems work, setting up lab environments, troubleshooting technical issues, and learning new tools through hands-on practice.
-This portfolio represents my learning journey and the practical projects I work on to develop my skills and prepare for a career in IT.
+I am an IT student with a strong interest in cybersecurity, penetration testing, and network security.
+I enjoy hands-on learning, experimenting with security tools, and building lab environments to better understand how systems work and how vulnerabilities can be identified and addressed.
+Through my projects, I aim to develop practical skills in cybersecurity, Linux, networking, and system administration while documenting my progress and sharing what I learn.
 
 Areas of Interest
-IT Support & Troubleshooting – Diagnosing technical issues and exploring solutions.
-Networking – Network configuration, troubleshooting, and network fundamentals.
-Cybersecurity – Security labs, vulnerability analysis, and defensive security.
-Linux & System Administration – Working with Linux, Windows, and system configuration.
-Virtualization & Homelabs – Building and managing virtual environments.
-Scripting & Automation – Exploring ways to automate tasks and improve workflows.
-Microsoft 365 & Cloud Technologies – Working with tools such as SharePoint and Power Automate.
+
+
+- Cybersecurity – Learning about security concepts, attack techniques, and defensive strategies through hands-on practice.
+- Penetration Testing – Exploring vulnerability assessment and penetration testing techniques in authorized lab environments.
+- Network Security – Understanding network protocols, traffic analysis, common vulnerabilities, and network defense.
+- Linux & Security Tools – Working with Kali Linux, command-line tools, and security testing utilities.
+- Vulnerability Analysis – Identifying, investigating, and understanding software and system vulnerabilities.
+- Digital Forensics & Incident Response – Exploring security logs, investigating suspicious activity, and understanding incident analysis.
+- Homelabs & Virtualization – Building isolated lab environments with Proxmox and virtual machines for cybersecurity practice.
+- Scripting & Automation – Using scripting to automate tasks and support security analysis.
 
 Projects
 This section will contain links to my individual projects as I develop and document them.
-Project
-Description
-Status
-SharePoint Helpdesk
-Exploring improvements to a SharePoint-based helpdesk with customer chat functionality.
-In progress
-Homelab
-Practical experiments with virtualization, networking, and security tools.
-Ongoing
-Future Projects
-New projects will be added as I continue learning.
-Planned
-Project descriptions and statuses will be updated as the work progresses.
+-Project
+-Description
+-Status
+-SharePoint Helpdesk
+-Exploring improvements to a SharePoint-based helpdesk with customer chat functionality.
+-In progress
+-Homelab
+-Practical experiments with virtualization, networking, and security tools.
+-Ongoing
+-Future Projects
+-New projects will be added as I continue learning.
+-Planned
+-Project descriptions and statuses will be updated as the work progresses.
 
 Tools & Technologies
 The tools and technologies I work with or explore include:
-Linux and Kali Linux
-Windows
-Proxmox VE
-Virtual machines and lab environments
-Networking fundamentals
-Microsoft 365
-SharePoint and Power Automate
-Security testing tools in controlled lab environments
+- Linux and Kali Linux
+- Windows
+- Proxmox VE
+- Virtual machines and lab environments
+- Networking fundamentals
+- Microsoft 365
+- Wireshark
+- Nmap
+- SharePoint and Power Automate
+- Security testing tools in controlled lab environments
 This list will grow as I gain experience and work with additional technologies.
 
 Learning Approach
