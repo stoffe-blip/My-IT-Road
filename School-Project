@@ -1,0 +1,104 @@
+School Project – SharePoint-Based Helpdesk and Customer Chat System
+
+1. Project Overview - 
+I developed this project as part of my IT studies, with the aim of improving my school's existing helpdesk system using Microsoft SharePoint.
+The idea was to create a more organized way for the school to manage support tickets and communicate with students and other users who need technical assistance. 
+I wanted to explore how SharePoint could be extended with a chat feature that allows support staff to communicate directly with users through individual support tickets.
+This would make it easier to request additional information, keep track of conversations, and ensure that all communication remains connected to the correct support case.
+The solution should also be accessible on both desktop computers and mobile devices.
+
+2. Project Goals - 
+The main goal was to extend the existing SharePoint helpdesk with a chat feature that is simple to use, secure, and accessible to both support staff and users.
+My objectives were to:
+Create an individual chat conversation for each support ticket.
+Connect every conversation to the correct ticket ID.
+Store and display the conversation history.
+Allow support staff to request additional information from users.
+Allow users to reply directly through the chat.
+Make the interface accessible on desktop computers and mobile devices.
+Ensure that users can only access conversations they are authorized to view.
+Protect personal information and internal support data.
+Reduce the need to handle every follow-up through separate email conversations.
+
+3. SharePoint Integration - 
+I used the school's existing SharePoint helpdesk list as the starting point for the project.
+The list contains the following columns:
+Column
+Purpose
+ID
+Identifies each support ticket.
+Beskrivning
+Contains the description of the support ticket.
+Chatthistorik
+Intended to store the conversation history for the ticket.
+Created
+Records when the ticket was created.
+E-mailadress
+Stores the user's email address.
+My plan was to integrate the chat functionality into the existing ticket structure rather than create a completely separate helpdesk system.
+Each conversation would be associated with a unique ticket ID. This would ensure that conversations remain separate,
+even when the same user has submitted multiple support tickets.
+
+4. Support Staff Functionality - 
+I wanted to make it possible for support staff to manage customer conversations directly through the helpdesk.
+The support interface should allow staff to:
+View and open support tickets they are authorized to access.
+Read ticket descriptions and relevant user information.
+View the conversation history.
+Send messages to users.
+Request additional information when needed.
+Read replies and keep track of communication related to each ticket.
+The aim was to make communication easier and improve the process of investigating and resolving technical support issues.
+
+5. Customer Chat Interface - 
+Another important part of the project was planning a separate and straightforward interface for users.
+Users should be able to open their support conversation, read previous messages, and send replies without needing access to the internal helpdesk interface.
+The customer interface should display the relevant conversation, allow messages to be sent and received, and show previous messages in chronological order.
+I also wanted the interface to work in a standard web browser on both desktop computers and mobile devices.
+Users must not be able to access other users' support tickets, email addresses, conversations, internal notes, or support management functions.
+
+6. Microsoft Teams and External Users - 
+One of my requirements was that users should not need Microsoft Teams to communicate with support staff.
+I wanted to explore the possibility of providing access through a separate web interface or customer portal. 
+This would make the solution more accessible to users who do not have a Microsoft Teams account.
+Microsoft Teams could still be used internally for notifications or communication between support staff. 
+Email notifications could also be added to inform users when support staff have replied.
+
+7. Proposed Technologies - 
+I explored how different Microsoft 365 technologies could be combined to build the solution.
+SharePoint: To store and manage support tickets and integrate with the existing helpdesk.
+Power Apps: As a possible way to build the internal support interface.
+Power Automate: To automate notifications and other helpdesk processes.
+Microsoft Teams: For optional internal notifications and communication.
+A customer portal or web application: To provide external users with secure access to their own conversations.
+The final technology choice would depend on security requirements, licensing, authentication, and integration possibilities.
+
+8. Security and Access Control - 
+Security was one of the most important considerations in the project.
+I wanted to ensure that users could only access conversations they were authorized to view. This requires proper authentication, authorization, 
+and data-source permissions rather than relying only on filtering tickets by email address in the user interface.
+Internal support notes should also be separated from customer-visible messages to prevent sensitive information from being exposed.
+The solution would need to be tested to ensure that users could not access other tickets by changing ticket IDs, URLs, or request parameters.
+
+9. Responsive Design - 
+I wanted the interface to work well across different screen sizes.
+On desktop computers, the chat should provide enough space to read the conversation and write messages comfortably. 
+On mobile devices, the layout should adapt to smaller screens while keeping the conversation readable and the message input easy to access.
+The aim was to create a consistent and user-friendly experience regardless of which device the user chooses.
+
+10. Potential Future Improvements
+After implementing the basic functionality, the system could be expanded with additional features, such as:
+Automatic email notifications when new messages arrive.
+Message timestamps.
+Unread message indicators.
+File and image attachments.
+Ticket status updates.
+Improved search and filtering for support staff.
+A clear separation between internal notes and customer messages.
+
+11. Project Outcome and Learning - 
+The goal of this school project was to explore how the existing SharePoint helpdesk could be improved by integrating a chat system for support tickets.
+Through the project, I gained practical experience in planning IT solutions, working with Microsoft 365 technologies, considering system integration, 
+and identifying security and access-control requirements.
+The project also helped me understand the challenges involved in designing a customer-facing interface that is both user-friendly and secure.
+The intended outcome was a more integrated helpdesk solution where support tickets and their conversations could be managed in one place, making it easier for the school to organize support requests and communicate with users.
